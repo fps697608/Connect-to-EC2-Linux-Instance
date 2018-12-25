@@ -1,12 +1,12 @@
 # Connect to EC2 Linux Instance
 This brief tutorial provides direct steps for beginners who are not familiar with Information Technology and refers to AWS's [official documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html). Please feel free to share.
 
-## List of Content
+## List of Contents
 
-* Get Instance IP
-* Start Connecting
-  * Use PuTTY to Connect to EC2 Linux Instance (Windows)
-  * Use SSH to Connect to EC2 Linux Instance (Linux / macOS)
+* [Get Instance IP](#1.-get-instance-ip)
+* [Start Connecting](#2.-start-connecting)
+  * [Use PuTTY to Connect (Windows)](#2.1-use-putty-to-connect-(windows))
+  * [Use SSH to Connect (Linux / macOS)](#2.2-use-ssh-to-connect-(linux-/-macos))
 
 
 ## 1. Get Instance IP
@@ -23,7 +23,7 @@ This brief tutorial provides direct steps for beginners who are not familiar wit
 
 
 ## 2. Start Connecting
-### 2.1 Use PuTTY to Connect to EC2 Linux Instance (Windows)
+### 2.1 Use PuTTY to Connect (Windows)
 
 * Download and install PuTTY from [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). PuTTY is a free SSH client for Windows which can be used to connect to EC2 instances.
 
@@ -94,7 +94,7 @@ This brief tutorial provides direct steps for beginners who are not familiar wit
   ![](img/success.png)
 
 
-### 2.2 Use SSH to Connect to EC2 Linux Instance (Linux / macOS)
+### 2.2 Use SSH to Connect (Linux / macOS)
 
 * If you don't have a SSH client yet, please check http://www.openssh.com/. In general, macOS and most Linux distributions have installed SSH client by default.
 
